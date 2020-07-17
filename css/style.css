@@ -9327,7 +9327,7 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
 }
 
 .author-image {
-  height: auto;
+  height: 90vh;
 }
 
 .hero-wrap .author-info, .hero-wrap .author-image {
@@ -9339,7 +9339,7 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
     width: 30%;
   }
   .author-image {
-    height: 100vh;
+    height: 60vh;
   }
 }
 
