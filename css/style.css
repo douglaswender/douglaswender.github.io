@@ -9326,6 +9326,10 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
   z-index: 0;
 }
 
+.author-image {
+  height: auto;
+}
+
 .hero-wrap .author-info, .hero-wrap .author-image {
   width: 50%;
 }
@@ -9333,6 +9337,9 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
 @media (max-width: 767.98px) {
   .hero-wrap .author-info, .hero-wrap .author-image {
     width: 30%;
+  }
+  .author-image {
+    height: 100vh;
   }
 }
 
@@ -9343,6 +9350,9 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
 @media (max-width: 767.98px) {
   .hero-wrap .author-info {
     width: 70%;
+  }
+  .author-image {
+    height: 100vh;
   }
 }
 
