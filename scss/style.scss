@@ -48,14 +48,14 @@ body {
 	color: lighten($black,60%);
 	&.offcanvas {
 		overflow-x: hidden;
-		#colorlib-aside {
+		#tubo-aside {
 			@include translateX(0);
 			width: 270px;
 			background: $white;
 			z-index: 999;
 			position: fixed;
 		}
-		#colorlib-main, .colorlib-nav-toggle {
+		#tubo-main, .tubo-nav-toggle {
 			top: 0;
 			@include translateX(270px);
 		}
@@ -80,14 +80,14 @@ h1, h2, h3, h4, h5,
 
 
 
-#colorlib-page {
+#tubo-page {
   width: 100%;
   overflow: hidden;
   position: relative;
 }
 
 
-#colorlib-aside {
+#tubo-aside {
 	padding-top: 3em;
 	padding-bottom: 40px;
 	padding-left: 3em;
@@ -113,7 +113,7 @@ h1, h2, h3, h4, h5,
 		padding-top: 2em;
 		background: rgba(0,0,0,.04);
 	}
-	#colorlib-logo {
+	#tubo-logo {
 		margin-bottom: 1.5em;
 		display: block;
 		width: 100%;
@@ -136,7 +136,7 @@ h1, h2, h3, h4, h5,
 			color: $black;
 		}
 	}
-	#colorlib-main-menu {
+	#tubo-main-menu {
 		ul {
 			margin: 0;
 			padding: 0;
@@ -187,7 +187,7 @@ h1, h2, h3, h4, h5,
 						}
 					}
 				}
-				&.colorlib-active {
+				&.tubo-active {
 					a {
 						color: $black;
 						&:after {
@@ -203,7 +203,7 @@ h1, h2, h3, h4, h5,
 			}
 		}
 	}
-	.colorlib-footer {
+	.tubo-footer {
 		position: absolute;
 		bottom: 40px;
 		left: 0;
@@ -249,7 +249,7 @@ h1, h2, h3, h4, h5,
 				}
 			}
 		}
-		.colorlib-subscribe-form{
+		.tubo-subscribe-form{
 			.form-group {
 				position: relative;
 				margin-bottom: 0;
@@ -290,7 +290,7 @@ h1, h2, h3, h4, h5,
 	}
 }
 
-#colorlib-main {
+#tubo-main {
 	width: 100%;
 	float: right;
 	@include transition(.5s);
@@ -301,7 +301,7 @@ h1, h2, h3, h4, h5,
 
 
 // Burger Menu
-.colorlib-nav-toggle {
+.tubo-nav-toggle {
   cursor: pointer;
   text-decoration: none;
   &.active i {
@@ -355,22 +355,22 @@ h1, h2, h3, h4, h5,
   }
 }
 
-.colorlib-nav-toggle i::before {
+.tubo-nav-toggle i::before {
   top: -7px;
 }
-.colorlib-nav-toggle i::after {
+.tubo-nav-toggle i::after {
   bottom: -7px;
 }
-.colorlib-nav-toggle:hover i::before {
+.tubo-nav-toggle:hover i::before {
   top: -10px;
 }
-.colorlib-nav-toggle:hover i::after {
+.tubo-nav-toggle:hover i::after {
   bottom: -10px;
 }
-.colorlib-nav-toggle.active i {
+.tubo-nav-toggle.active i {
 	background: transparent;
 }
-.colorlib-nav-toggle.active i::before {
+.tubo-nav-toggle.active i::before {
   top:0;
   -webkit-transform: rotateZ(45deg);
      -moz-transform: rotateZ(45deg);
@@ -378,7 +378,7 @@ h1, h2, h3, h4, h5,
        -o-transform: rotateZ(45deg);
           transform: rotateZ(45deg);
 }
-.colorlib-nav-toggle.active i::after {
+.tubo-nav-toggle.active i::after {
   bottom:0;
   -webkit-transform: rotateZ(-45deg);
      -moz-transform: rotateZ(-45deg);
@@ -386,7 +386,7 @@ h1, h2, h3, h4, h5,
        -o-transform: rotateZ(-45deg);
           transform: rotateZ(-45deg);
 }
-.colorlib-nav-toggle {
+.tubo-nav-toggle {
 	position: fixed;
 	left: -12px;
 	top: 0px;
