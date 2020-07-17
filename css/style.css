@@ -1846,6 +1846,9 @@ pre code {
   .table-responsive-md>.table-bordered {
     border: 0;
   }
+  .author-info{
+    margin-top: 7vh;
+  }
 }
 
 @media (max-width: 991.98px) {
@@ -10884,4 +10887,8 @@ textarea.form-control {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px;
   }
+}
+
+.js-fullheight{
+  height: 100vh;
 }
